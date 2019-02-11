@@ -21,7 +21,6 @@ header {
 
 nav {
     grid-area: nav;
-    background-image: url(https://github.com/academia01-2019/d-N-105-psdNotify/blob/master/hand.png?raw=true);
     background-image: url(https://github.com/academia01-2019/d-N-105-psdNotify/blob/master/banner.png?raw=true);
     display: flex;
     background-position:center;
@@ -29,6 +28,8 @@ nav {
     background-repeat: no-repeat;
     height: 50vw;
     width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
@@ -43,6 +44,10 @@ h3 {
     font-family: 'Tillana', cursive;
     font-size: 18pt;
     margin-left: 8pt;   
+}
+
+nav .mao {
+    align-self: flex-end;
 }
 
 .icones {
@@ -62,6 +67,7 @@ h3 {
 }
 
 .ios:hover {
+    background-color: green;
     cursor: pointer;
     opacity: 0.8;
     border-radius: 20%;
@@ -78,6 +84,7 @@ h3 {
 }
 
 .windows:hover {
+    background-color: green;
     cursor: pointer;
     opacity: 0.8;
     border-radius: 20%;
@@ -94,6 +101,7 @@ h3 {
 }
 
 .android:hover {
+    background-color: green;
     cursor: pointer;
     opacity: 0.8;
     border-radius: 20%;
@@ -216,4 +224,8 @@ iframe {
 
 span {
     color: green;
+}
+
+@media(min-width:576px) {
+    
 }
