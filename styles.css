@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+}
+#main {
+    display: grid;
+    grid-template-areas: 'header header header '
+                         'nav nav nav'
+                         'section section section '
+                         'aside aside aside'
+                         'footer footer footer';
+    grid-auto-rows: 5vh 100vh 30vh 40vh;              
+    grid-column-gap: 10px;
+}
+
+header {
+    grid-area: header;
+    background-color: green;
+    display: flex;
+    
+}
+
+nav {
+    grid-area: nav;
+    background-image: url(https://github.com/academia01-2019/d-N-105-psdNotify/blob/master/hand.png?raw=true);
+    background-image: url(https://github.com/academia01-2019/d-N-105-psdNotify/blob/master/banner.png?raw=true);
+    display: flex;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 50pt;
+    margin-left: 8pt;
+}
+
+h3 {
+    color: white;
+    font-family: 'Tillana', cursive;
+    font-size: 18pt;
+    margin-left: 8pt;   
+}
+
+.icones {
+    grid-area: icones;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.ios {
+    border-radius: 100px;
+    background-color: black;
+    opacity: 0.5;
+    padding: 10px;
+
+}
+
+.ios:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 20%;
+    border: 2px solid red;
+
+}
+
+.windows {
+    border-radius: 100px;
+    background-color: black;
+    opacity: 0.5;
+    padding: 10px;
+
+}
+
+.windows:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 20%;
+    border: 2px solid red;
+
+}
+
+.android {
+    border-radius: 100px;
+    background-color: black;
+    opacity: 0.5;
+    padding: 10px
+
+}
+
+.android:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 20%;
+    border: 2px solid red;
+    
+
+}
+
+aside {
+    grid-area: aside;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+}
+
+aside p {
+    width: 150px;
+    color: white;
+    font-size: 10pt;
+}
+
+aside h2{
+    font-size: 14pt;
+    color: white;
+}
+
+.titulosdoformulario {
+    font-size: 30px;
+    text-align: left;    
+}
+
+section {
+    grid-area: section;
+    background-color: white;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    text-align: center;    
+
+}
+
+.centro-icones {
+    grid-area: section;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: space-around;
+    
+}
+
+.centro-icones p {
+    grid-area: section;    
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 12pt;
+    margin-left: 8pt;
+        
+   
+}
+
+
+.icone-1 {
+    border-radius: 100px;
+    background-color: green;
+    opacity: 0.5;
+    padding: 10px
+
+}
+
+.icone-2 {
+    border-radius: 100px;
+    background-color: green;
+    opacity: 0.5;
+    padding: 10px
+
+}
+
+.icone-3 {
+    border-radius: 100px;
+    background-color: green;
+    opacity: 0.5;
+    padding: 10px
+
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a {
+    color: white;
+    font-size: 10pt;
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+footer a:nth-child(4) {
+    font-size: 16pt;
+    color: green;
+}
+
+footer a:hover {
+    font-size: 13pt;
+}
+
+iframe {
+    border-radius: 20px 20px 20px 20px;
+}
+
+span {
+    color: green;
+}
